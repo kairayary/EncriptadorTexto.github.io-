@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./reset.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <header class="principal">
+
+        <img src="./img/logo.png" class="img-principal" alt="logo">
+          <h1>Encriptador de Texto</h1>
+    </header>
+    <main>
+        <section class="contenido">
+            <div class="info-contenido">
+
+                <div class="text-contenido">
+                    <p>Ingrese el texto aquí</p>
+                    <input id="inputTexto" class="botton-contenido" type="text">
+                </div>
+
+
+                <div class="img-contenido">
+                    <img src="./img/muñeco.png" id="imgDer" class="imgContenido">
+                    <p id="texto">Ningún mensaje fue encontrado</p>
+                    <textarea id="texto1" class="mensaje">Ingrese lo que quiere encriptar o desencriptar</textarea>
+                    <button id="copiar" type="button" onclick="copiar()">Copiar</button>
+                </div>
+            </div>
+            <div class="bottom-eleccion">
+                <p><img src="./img/alert.png"> Sólo letras minúsculas y sin acentos</p>
+                <button class="b-uno" type="button" onclick="encriptar()">Encriptar</button>
+                <button class="b-dos" type="button" onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+
+        </section>
+        <footer>
+            <div class="info-footer">
+
+                <img src="./img/logo.png"  alt="logo">
+                  <h2>Kaira Abréu</h2>
+                  <p>&#169 Copyright</p>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>
